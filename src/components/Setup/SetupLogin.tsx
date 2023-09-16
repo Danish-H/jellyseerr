@@ -12,7 +12,7 @@ import { defineMessages, FormattedMessage, useIntl } from 'react-intl';
 const messages = defineMessages({
   welcome: 'Welcome to Jellyseerr',
   signinMessage: 'Get started by signing in',
-  signinWithJellyfin: 'Use your {mediaServerName} account',
+  signinWithJellyfin: 'Use your Notflix account',
   signinWithPlex: 'Use your Plex account',
 });
 

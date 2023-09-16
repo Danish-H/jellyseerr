@@ -170,7 +170,7 @@ const PWAHeader = ({ applicationTitle = 'Overseerr' }: PWAHeaderProps) => {
       <meta name="format-detection" content="telephone=no" />
       <meta name="mobile-web-app-capable" content="yes" />
       <meta name="theme-color" content="#1f2937" />
-      <meta name="application-name" content={applicationTitle} />
+      <meta name="application-name" content="Notflix" />
     </>
   );
 };

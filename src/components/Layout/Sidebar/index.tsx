@@ -134,7 +134,10 @@ const Sidebar = ({ open, setClosed }: SidebarProps) => {
               leaveTo="-translate-x-full"
             >
               <>
-                <div className="sidebar relative flex h-full w-full max-w-xs flex-1 flex-col bg-gray-800">
+                <div
+                  className="sidebar relative flex h-full w-full max-w-xs flex-1 flex-col"
+                  style={{ background: '#111', border: 'none' }}
+                >
                   <div className="sidebar-close-button absolute right-0 -mr-14 p-1">
                     <button
                       className="flex h-12 w-12 items-center justify-center rounded-full focus:bg-gray-600 focus:outline-none"
@@ -151,7 +154,10 @@ const Sidebar = ({ open, setClosed }: SidebarProps) => {
                     <div className="flex flex-shrink-0 items-center px-2">
                       <span className="px-4 text-xl text-gray-50">
                         <a href="/">
-                          <img src="/logo_full.svg" alt="Logo" />
+                          <img
+                            src="https://dhserv.danishhumair.com/banner-light-notflix.png"
+                            alt="Logo"
+                          />
                         </a>
                       </span>
                     </div>
@@ -183,7 +189,7 @@ const Sidebar = ({ open, setClosed }: SidebarProps) => {
                                   router.pathname.match(
                                     sidebarLink.activeRegExp
                                   )
-                                    ? 'bg-gradient-to-br from-red-600 to-red-600 hover:from-red-500 hover:to-red-500'
+                                    ? 'bg-gradient-to-br from-red-600 to-red-600 hover:from-red-500 hover:to-red-800'
                                     : 'hover:bg-gray-700 focus:bg-gray-700'
                                 }
                               `}
@@ -219,13 +225,19 @@ const Sidebar = ({ open, setClosed }: SidebarProps) => {
       </div>
 
       <div className="fixed top-0 bottom-0 left-0 z-30 hidden lg:flex lg:flex-shrink-0">
-        <div className="sidebar flex w-64 flex-col">
+        <div
+          className="sidebar flex w-64 flex-col"
+          style={{ background: '#111', border: 'none' }}
+        >
           <div className="flex h-0 flex-1 flex-col">
             <div className="flex flex-1 flex-col overflow-y-auto pt-8 pb-4">
               <div className="flex flex-shrink-0 items-center">
                 <span className="px-4 text-2xl text-gray-50">
                   <a href="/">
-                    <img src="/logo_full.svg" alt="Logo" />
+                    <img
+                      src="https://dhserv.danishhumair.com/banner-light-notflix.png"
+                      alt="Logo"
+                    />
                   </a>
                 </span>
               </div>
@@ -249,7 +261,7 @@ const Sidebar = ({ open, setClosed }: SidebarProps) => {
                                   router.pathname.match(
                                     sidebarLink.activeRegExp
                                   )
-                                    ? 'bg-gradient-to-br from-red-600 to-red-600 hover:from-red-500 hover:to-red-500'
+                                    ? 'bg-gradient-to-br from-red-600 to-red-600 hover:from-red-500 hover:to-red-800'
                                     : 'hover:bg-gray-700 focus:bg-gray-700'
                                 }
                               `}

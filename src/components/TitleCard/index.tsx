@@ -224,7 +224,7 @@ const TitleCard = ({
               className={`pointer-events-none z-40 rounded-full border bg-opacity-80 shadow-md ${
                 mediaType === 'movie' || mediaType === 'collection'
                   ? 'border-blue-500 bg-blue-600'
-                  : 'border-red-600 bg-purple-600'
+                  : 'border-red-600 bg-red-600'
               }`}
             >
               <div className="flex h-4 items-center px-2 py-2 text-center text-xs font-medium uppercase tracking-wider text-white sm:h-5">

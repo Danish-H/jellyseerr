@@ -64,7 +64,11 @@ const ResetPassword = () => {
         <LanguagePicker />
       </div>
       <div className="relative z-40 mt-10 flex flex-col items-center px-4 sm:mx-auto sm:w-full sm:max-w-md">
-        <img src="/logo_stacked.svg" className="mb-10 max-w-full" alt="Logo" />
+        <img
+          src="https://dhserv.danishhumair.com/banner-light-notflix.png"
+          className="mb-10 max-w-full"
+          alt="Logo"
+        />
         <h2 className="mt-2 text-center text-3xl font-extrabold leading-9 text-gray-100">
           {intl.formatMessage(messages.resetpassword)}
         </h2>
