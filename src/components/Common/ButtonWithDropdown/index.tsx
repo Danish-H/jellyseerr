@@ -19,11 +19,11 @@ const DropdownItem = ({
   switch (buttonType) {
     case 'ghost':
       styleClass +=
-        ' bg-transparent rounded hover:bg-gradient-to-br from-indigo-600 to-purple-600 text-white focus:border-gray-500 focus:text-white';
+        ' bg-transparent rounded hover:bg-gradient-to-br from-red-600 to-purple-600 text-white focus:border-gray-500 focus:text-white';
       break;
     default:
       styleClass +=
-        ' bg-indigo-600 rounded hover:bg-indigo-500 focus:border-indigo-700 focus:text-white';
+        ' bg-red-600 rounded hover:bg-red-500 focus:border-red-700 focus:text-white';
   }
   return (
     <a
@@ -70,10 +70,10 @@ const ButtonWithDropdown = ({
       break;
     default:
       styleClasses.mainButtonClasses +=
-        ' bg-indigo-600 border-indigo-500 bg-opacity-80 hover:bg-opacity-100 hover:border-indigo-500 active:bg-indigo-700 active:border-indigo-700 focus:ring-blue';
+        ' bg-red-600 border-red-500 bg-opacity-80 hover:bg-opacity-100 hover:border-red-500 active:bg-red-700 active:border-red-700 focus:ring-blue';
       styleClasses.dropdownSideButtonClasses +=
-        ' bg-indigo-600 bg-opacity-80 border-indigo-500 hover:bg-opacity-100 active:bg-opacity-100 focus:ring-blue';
-      styleClasses.dropdownClasses += ' bg-indigo-600 p-1';
+        ' bg-red-600 bg-opacity-80 border-red-500 hover:bg-opacity-100 active:bg-opacity-100 focus:ring-blue';
+      styleClasses.dropdownClasses += ' bg-red-600 p-1';
   }
 
   return (

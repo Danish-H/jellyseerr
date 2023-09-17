@@ -22,7 +22,7 @@ const SlideCheckbox = ({ onClick, checked = false }: SlideCheckboxProps) => {
       <span
         aria-hidden="true"
         className={`${
-          checked ? 'bg-indigo-500' : 'bg-gray-700'
+          checked ? 'bg-red-500' : 'bg-gray-700'
         } absolute mx-auto h-4 w-9 rounded-full transition-colors duration-200 ease-in-out`}
       ></span>
       <span

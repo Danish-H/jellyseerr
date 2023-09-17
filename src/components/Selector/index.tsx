@@ -361,7 +361,7 @@ export const WatchProviderSelector = ({
                   <div
                     className={`provider-container relative w-full cursor-pointer rounded-lg p-2 ring-1 ${
                       isActive
-                        ? 'bg-gray-600 ring-indigo-500 hover:bg-gray-500'
+                        ? 'bg-gray-600 ring-red-500 hover:bg-gray-500'
                         : 'bg-gray-700 ring-gray-500 hover:bg-gray-600'
                     }`}
                     onClick={() => toggleProvider(provider.id)}
@@ -382,7 +382,7 @@ export const WatchProviderSelector = ({
                       className="rounded-lg"
                     />
                     {isActive && (
-                      <div className="pointer-events-none absolute -top-1 -left-1 flex items-center justify-center text-indigo-100 opacity-90">
+                      <div className="pointer-events-none absolute -top-1 -left-1 flex items-center justify-center text-red-100 opacity-90">
                         <CheckCircleIcon className="h-6 w-6" />
                       </div>
                     )}
@@ -403,7 +403,7 @@ export const WatchProviderSelector = ({
                     <div
                       className={`provider-container relative w-full cursor-pointer rounded-lg p-2 ring-1 transition ${
                         isActive
-                          ? 'bg-gray-600 ring-indigo-500 hover:bg-gray-500'
+                          ? 'bg-gray-600 ring-red-500 hover:bg-gray-500'
                           : 'bg-gray-700 ring-gray-500 hover:bg-gray-600'
                       }`}
                       onClick={() => toggleProvider(provider.id)}
@@ -424,7 +424,7 @@ export const WatchProviderSelector = ({
                         className="rounded-lg"
                       />
                       {isActive && (
-                        <div className="pointer-events-none absolute -top-1 -left-1 flex items-center justify-center text-indigo-100 opacity-90">
+                        <div className="pointer-events-none absolute -top-1 -left-1 flex items-center justify-center text-red-100 opacity-90">
                           <CheckCircleIcon className="h-6 w-6" />
                         </div>
                       )}

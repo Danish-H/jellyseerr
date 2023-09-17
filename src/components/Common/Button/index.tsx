@@ -51,7 +51,7 @@ function Button<P extends ElementTypes = 'button'>(
   switch (buttonType) {
     case 'primary':
       buttonStyle.push(
-        'text-white border border-indigo-500 bg-indigo-600 bg-opacity-80 hover:bg-opacity-100 hover:border-indigo-500 focus:border-indigo-700 focus:ring-indigo active:bg-opacity-100 active:border-indigo-700'
+        'text-white border border-red-500 bg-red-600 bg-opacity-80 hover:bg-opacity-100 hover:border-red-500 focus:border-red-700 focus:ring-red active:bg-opacity-100 active:border-red-700'
       );
       break;
     case 'danger':

@@ -95,7 +95,7 @@ const MultiRangeSlider = ({
         />
       </Tooltip>
       <div
-        className="pointer-events-none absolute top-0 z-30 ml-1 mr-1 h-2 bg-indigo-500"
+        className="pointer-events-none absolute top-0 z-30 ml-1 mr-1 h-2 bg-red-500"
         style={{
           left: `${minThumb}%`,
           right: `${100 - maxThumb}%`,

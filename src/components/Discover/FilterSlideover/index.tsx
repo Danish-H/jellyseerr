@@ -84,7 +84,7 @@ const FilterSlideover = ({
             <div className="flex flex-col">
               <div className="mb-2">{intl.formatMessage(messages.from)}</div>
               <Datepicker
-                primaryColor="indigo"
+                primaryColor="red"
                 value={{
                   startDate: currentFilters[dateGte] ?? null,
                   endDate: currentFilters[dateGte] ?? null,
@@ -105,7 +105,7 @@ const FilterSlideover = ({
             <div className="flex flex-col">
               <div className="mb-2">{intl.formatMessage(messages.to)}</div>
               <Datepicker
-                primaryColor="indigo"
+                primaryColor="red"
                 value={{
                   startDate: currentFilters[dateLte] ?? null,
                   endDate: currentFilters[dateLte] ?? null,

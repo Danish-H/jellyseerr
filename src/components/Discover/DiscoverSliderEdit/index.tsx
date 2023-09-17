@@ -186,12 +186,12 @@ const DiscoverSliderEdit = ({
     >
       {hoverPosition === Position.Above && (
         <div
-          className={`absolute -top-3 left-0 w-full border-t-4 border-indigo-500`}
+          className={`absolute -top-3 left-0 w-full border-t-4 border-red-500`}
         />
       )}
       {hoverPosition === Position.Below && (
         <div
-          className={`absolute -bottom-2 left-0 w-full border-t-4 border-indigo-500`}
+          className={`absolute -bottom-2 left-0 w-full border-t-4 border-red-500`}
         />
       )}
       <div className="flex w-full flex-col rounded-t-lg border-t border-l border-r border-gray-800 bg-gray-900 p-4 text-gray-400 md:flex-row md:items-center md:space-x-2">

@@ -37,7 +37,7 @@ const DownloadBlock = ({
       </div>
       <div className="relative mb-2 h-6 min-w-0 overflow-hidden rounded-full bg-gray-700">
         <div
-          className="h-8 bg-indigo-600 transition-all duration-200 ease-in-out"
+          className="h-8 bg-red-600 transition-all duration-200 ease-in-out"
           style={{
             width: `${
               downloadItem.size

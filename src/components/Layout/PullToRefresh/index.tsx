@@ -108,7 +108,7 @@ const PullToRefresh = () => {
         <ArrowPathIcon
           className={`rounded-full ${
             pullDownReloadThreshold && 'rotate-180'
-          } text-indigo-500 transition-all duration-300`}
+          } text-red-500 transition-all duration-300`}
         />
       </div>
     </div>

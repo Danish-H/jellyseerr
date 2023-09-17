@@ -253,7 +253,7 @@ const CreateIssueModal = ({
                           ? 'rounded-bl-md rounded-br-md'
                           : '',
                         checked
-                          ? 'z-10 border border-indigo-500 bg-indigo-400 bg-opacity-20'
+                          ? 'z-10 border border-red-500 bg-red-400 bg-opacity-20'
                           : 'border-gray-500',
                         'relative flex cursor-pointer border p-4 focus:outline-none'
                       )
@@ -264,10 +264,10 @@ const CreateIssueModal = ({
                         <span
                           className={`${
                             checked
-                              ? 'border-transparent bg-indigo-600'
+                              ? 'border-transparent bg-red-600'
                               : 'border-gray-300 bg-white'
                           } ${
-                            active ? 'ring-2 ring-indigo-300 ring-offset-2' : ''
+                            active ? 'ring-2 ring-red-300 ring-offset-2' : ''
                           } mt-0.5 flex h-4 w-4 cursor-pointer items-center justify-center rounded-full border`}
                           aria-hidden="true"
                         >
@@ -277,7 +277,7 @@ const CreateIssueModal = ({
                           <RadioGroup.Label
                             as="span"
                             className={`block text-sm font-medium ${
-                              checked ? 'text-indigo-100' : 'text-gray-100'
+                              checked ? 'text-red-100' : 'text-gray-100'
                             }`}
                           >
                             {intl.formatMessage(setting.name)}

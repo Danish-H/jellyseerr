@@ -66,7 +66,7 @@ const SetupLogin: React.FC<LoginWithMediaServerProps> = ({ onComplete }) => {
           <>
             <button
               className={`w-full cursor-default bg-gray-900 py-2 text-center text-sm text-gray-400 transition-colors duration-200 hover:cursor-pointer hover:bg-gray-700 focus:outline-none sm:rounded-t-lg ${
-                openIndexes.includes(0) && 'text-indigo-500'
+                openIndexes.includes(0) && 'text-red-500'
               } ${openIndexes.includes(1) && 'border-b border-gray-500'}`}
               onClick={() => handleClick(0)}
             >
@@ -88,9 +88,7 @@ const SetupLogin: React.FC<LoginWithMediaServerProps> = ({ onComplete }) => {
             <div>
               <button
                 className={`w-full cursor-default bg-gray-900 py-2 text-center text-sm text-gray-400 transition-colors duration-200 hover:cursor-pointer hover:bg-gray-700 focus:outline-none ${
-                  openIndexes.includes(1)
-                    ? 'text-indigo-500'
-                    : 'sm:rounded-b-lg'
+                  openIndexes.includes(1) ? 'text-red-500' : 'sm:rounded-b-lg'
                 }`}
                 onClick={() => handleClick(1)}
               >

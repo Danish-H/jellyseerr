@@ -52,7 +52,7 @@
   }
 
   .plex-button {
-    @apply flex w-full justify-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-center text-sm font-medium text-white transition duration-150 ease-in-out disabled:opacity-50;
+    @apply flex w-full justify-center rounded-md border border-transparent bg-red-600 px-4 py-2 text-center text-sm font-medium text-white transition duration-150 ease-in-out disabled:opacity-50;
     background-color: #cc7b19;
   }
 
@@ -283,7 +283,7 @@
   }
 
   input[type='checkbox'] {
-    @apply h-6 w-6 rounded-md text-indigo-600 transition duration-150 ease-in-out;
+    @apply h-6 w-6 rounded-md text-red-600 transition duration-150 ease-in-out;
   }
 
   input[type='text'],
@@ -318,7 +318,7 @@
   }
 
   button.input-action {
-    @apply relative -ml-px inline-flex items-center border border-gray-500 bg-indigo-600 bg-opacity-80 px-3 py-2 text-sm font-medium leading-5 text-white transition duration-150 ease-in-out last:rounded-r-md hover:bg-opacity-100 active:bg-gray-100 active:text-gray-700 sm:px-3.5;
+    @apply relative -ml-px inline-flex items-center border border-gray-500 bg-red-600 bg-opacity-80 px-3 py-2 text-sm font-medium leading-5 text-white transition duration-150 ease-in-out last:rounded-r-md hover:bg-opacity-100 active:bg-gray-100 active:text-gray-700 sm:px-3.5;
   }
 
   .button-md svg,
@@ -457,7 +457,7 @@
   }
 
   input[type='range']::-webkit-slider-thumb {
-    @apply rounded-full border-0 bg-indigo-500;
+    @apply rounded-full border-0 bg-red-500;
     pointer-events: all;
     width: 16px;
     height: 16px;
@@ -465,7 +465,7 @@
   }
 
   input[type='range']::-moz-range-thumb {
-    @apply rounded-full border-0 bg-indigo-500;
+    @apply rounded-full border-0 bg-red-500;
     pointer-events: all;
     width: 16px;
     height: 16px;
@@ -511,7 +511,7 @@
   }
 
   .text-overseerr {
-    @apply bg-gradient-to-br from-indigo-400 to-purple-400 bg-clip-text text-transparent;
+    @apply bg-gradient-to-br from-red-400 to-purple-400 bg-clip-text text-transparent;
   }
 
   @media all and (display-mode: browser) {

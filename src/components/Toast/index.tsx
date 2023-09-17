@@ -39,7 +39,7 @@ const Toast = ({
                     <ExclamationCircleIcon className="h-6 w-6 text-red-500" />
                   )}
                   {appearance === 'info' && (
-                    <InformationCircleIcon className="h-6 w-6 text-indigo-500" />
+                    <InformationCircleIcon className="h-6 w-6 text-red-500" />
                   )}
                   {appearance === 'warning' && (
                     <ExclamationTriangleIcon className="h-6 w-6 text-orange-400" />

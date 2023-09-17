@@ -533,7 +533,7 @@ const TvRequestModal = ({
                         <span
                           aria-hidden="true"
                           className={`${
-                            isAllSeasons() ? 'bg-indigo-500' : 'bg-gray-800'
+                            isAllSeasons() ? 'bg-red-500' : 'bg-gray-800'
                           } absolute mx-auto h-4 w-9 rounded-full transition-colors duration-200 ease-in-out`}
                         ></span>
                         <span
@@ -616,7 +616,7 @@ const TvRequestModal = ({
                                       season.seasonNumber
                                     )) ||
                                   isSelectedSeason(season.seasonNumber)
-                                    ? 'bg-indigo-500'
+                                    ? 'bg-red-500'
                                     : 'bg-gray-700'
                                 } absolute mx-auto h-4 w-9 rounded-full transition-colors duration-200 ease-in-out`}
                               ></span>

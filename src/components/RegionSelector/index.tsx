@@ -136,7 +136,7 @@ const RegionSelector = ({
                     {({ selected, active }) => (
                       <div
                         className={`${
-                          active ? 'bg-indigo-600 text-white' : 'text-gray-300'
+                          active ? 'bg-red-600 text-white' : 'text-gray-300'
                         } relative flex cursor-default select-none items-center py-2 pl-8 pr-4`}
                       >
                         <span className="mr-2 text-base">
@@ -162,7 +162,7 @@ const RegionSelector = ({
                         {selected && (
                           <span
                             className={`${
-                              active ? 'text-white' : 'text-indigo-600'
+                              active ? 'text-white' : 'text-red-600'
                             } absolute inset-y-0 left-0 flex items-center pl-1.5`}
                           >
                             <CheckIcon className="h-5 w-5" />
@@ -177,7 +177,7 @@ const RegionSelector = ({
                     {({ selected, active }) => (
                       <div
                         className={`${
-                          active ? 'bg-indigo-600 text-white' : 'text-gray-300'
+                          active ? 'bg-red-600 text-white' : 'text-gray-300'
                         } relative cursor-default select-none py-2 pl-8 pr-4`}
                       >
                         <span
@@ -190,7 +190,7 @@ const RegionSelector = ({
                         {selected && (
                           <span
                             className={`${
-                              active ? 'text-white' : 'text-indigo-600'
+                              active ? 'text-white' : 'text-red-600'
                             } absolute inset-y-0 left-0 flex items-center pl-1.5`}
                           >
                             <CheckIcon className="h-5 w-5" />
@@ -205,7 +205,7 @@ const RegionSelector = ({
                     {({ selected, active }) => (
                       <div
                         className={`${
-                          active ? 'bg-indigo-600 text-white' : 'text-gray-300'
+                          active ? 'bg-red-600 text-white' : 'text-gray-300'
                         } relative flex cursor-default select-none items-center py-2 pl-8 pr-4`}
                       >
                         <span className="mr-2 text-base">
@@ -227,7 +227,7 @@ const RegionSelector = ({
                         {selected && (
                           <span
                             className={`${
-                              active ? 'text-white' : 'text-indigo-600'
+                              active ? 'text-white' : 'text-red-600'
                             } absolute inset-y-0 left-0 flex items-center pl-1.5`}
                           >
                             <CheckIcon className="h-5 w-5" />

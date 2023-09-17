@@ -145,7 +145,7 @@ const MobileMenu = () => {
             <Link key={`mobile-menu-link-${link.href}`} href={link.href}>
               <a
                 className={`flex items-center space-x-2 ${
-                  isActive ? 'text-indigo-500' : ''
+                  isActive ? 'text-red-500' : ''
                 }`}
                 onKeyDown={(e) => {
                   if (e.key === 'Enter') {
@@ -176,7 +176,7 @@ const MobileMenu = () => {
                 <Link key={`mobile-menu-link-${link.href}`} href={link.href}>
                   <a
                     className={`flex flex-col items-center space-y-1 ${
-                      isActive ? 'text-indigo-500' : ''
+                      isActive ? 'text-red-500' : ''
                     }`}
                   >
                     {cloneElement(
@@ -192,7 +192,7 @@ const MobileMenu = () => {
           {filteredLinks.length > 4 && filteredLinks.length !== 5 && (
             <button
               className={`flex flex-col items-center space-y-1 ${
-                isOpen ? 'text-indigo-500' : ''
+                isOpen ? 'text-red-500' : ''
               }`}
               onClick={() => toggle()}
             >

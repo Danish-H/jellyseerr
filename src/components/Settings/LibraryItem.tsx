@@ -25,7 +25,7 @@ const LibraryItem = ({ isEnabled, name, onToggle }: LibraryItemProps) => {
               }
             }}
             className={`${
-              isEnabled ? 'bg-indigo-600' : 'bg-gray-700'
+              isEnabled ? 'bg-red-600' : 'bg-gray-700'
             } relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus:ring`}
           >
             <span
@@ -50,7 +50,7 @@ const LibraryItem = ({ isEnabled, name, onToggle }: LibraryItemProps) => {
                     : 'opacity-0 duration-100 ease-out'
                 } absolute inset-0 flex h-full w-full items-center justify-center transition-opacity`}
               >
-                <CheckIcon className="h-3 w-3 text-indigo-600" />
+                <CheckIcon className="h-3 w-3 text-red-600" />
               </span>
             </span>
           </span>

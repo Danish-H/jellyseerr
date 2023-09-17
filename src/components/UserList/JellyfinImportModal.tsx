@@ -185,7 +185,7 @@ const JellyfinImportModal: React.FC<JellyfinImportProps> = ({
                             <span
                               aria-hidden="true"
                               className={`${
-                                isAllUsers() ? 'bg-indigo-500' : 'bg-gray-800'
+                                isAllUsers() ? 'bg-red-500' : 'bg-gray-800'
                               } absolute mx-auto h-4 w-9 rounded-full transition-colors duration-200 ease-in-out`}
                             ></span>
                             <span
@@ -221,7 +221,7 @@ const JellyfinImportModal: React.FC<JellyfinImportProps> = ({
                                 aria-hidden="true"
                                 className={`${
                                   isSelectedUser(user.id)
-                                    ? 'bg-indigo-500'
+                                    ? 'bg-red-500'
                                     : 'bg-gray-800'
                                 } absolute mx-auto h-4 w-9 rounded-full transition-colors duration-200 ease-in-out`}
                               ></span>

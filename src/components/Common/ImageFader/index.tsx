@@ -39,7 +39,7 @@ const ImageFader: ForwardRefRenderFunction<HTMLDivElement, ImageFaderProps> = (
 
   if (isDarker) {
     gradient =
-      'linear-gradient(180deg, rgba(17, 24, 39, 0.47) 0%, rgba(17, 24, 39, 1) 100%)';
+      'linear-gradient(180deg, rgba(24, 24, 24, 0.47) 0%, rgba(24, 24, 24, 1) 100%)';
   }
 
   let overrides = {};

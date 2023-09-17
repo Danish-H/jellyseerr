@@ -60,7 +60,7 @@ const SettingsAbout = () => {
           intl.formatMessage(globalMessages.settings),
         ]}
       />
-      <div className="mt-6 rounded-md border border-indigo-500 bg-indigo-400 bg-opacity-20 p-4 backdrop-blur">
+      <div className="mt-6 rounded-md border border-red-500 bg-red-400 bg-opacity-20 p-4 backdrop-blur">
         <div className="flex">
           <div className="flex-shrink-0">
             <InformationCircleIcon className="h-5 w-5 text-gray-100" />
@@ -160,7 +160,7 @@ const SettingsAbout = () => {
               href="https://docs.overseerr.dev"
               target="_blank"
               rel="noreferrer"
-              className="text-indigo-500 transition duration-300 hover:underline"
+              className="text-red-500 transition duration-300 hover:underline"
             >
               https://docs.overseerr.dev
             </a>
@@ -170,7 +170,7 @@ const SettingsAbout = () => {
               href="https://github.com/fallenbagel/jellyseerr/discussions"
               target="_blank"
               rel="noreferrer"
-              className="text-indigo-500 transition duration-300 hover:underline"
+              className="text-red-500 transition duration-300 hover:underline"
             >
               https://github.com/fallenbagel/jellyseerr/discussions
             </a>
@@ -180,7 +180,7 @@ const SettingsAbout = () => {
               href="https://discord.gg/ckbvBtDJgC"
               target="_blank"
               rel="noreferrer"
-              className="text-indigo-500 transition duration-300 hover:underline"
+              className="text-red-500 transition duration-300 hover:underline"
             >
               https://discord.gg/ckbvBtDJgC
             </a>

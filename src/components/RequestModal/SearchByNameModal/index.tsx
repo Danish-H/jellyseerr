@@ -78,12 +78,12 @@ const SearchByNameModal = ({
         {data?.slice(0, 6).map((item) => (
           <button
             key={item.tvdbId}
-            className="container mx-auto flex h-40 scale-100 transform-gpu cursor-pointer flex-col items-center justify-center space-y-4 rounded-xl outline-none transition hover:scale-105 focus:outline-none focus:ring focus:ring-indigo-500 focus:ring-opacity-70"
+            className="container mx-auto flex h-40 scale-100 transform-gpu cursor-pointer flex-col items-center justify-center space-y-4 rounded-xl outline-none transition hover:scale-105 focus:outline-none focus:ring focus:ring-red-500 focus:ring-opacity-70"
             onClick={() => handleClick(item.tvdbId)}
           >
             <div
               className={`flex h-40 w-full items-center overflow-hidden rounded-xl border border-gray-700 bg-gray-700 bg-opacity-20 p-2 shadow backdrop-blur transition ${
-                tvdbId === item.tvdbId ? 'ring ring-indigo-500' : ''
+                tvdbId === item.tvdbId ? 'ring ring-red-500' : ''
               } `}
             >
               <div className="flex w-24 flex-none items-center space-x-4">

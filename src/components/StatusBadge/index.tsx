@@ -127,7 +127,7 @@ const StatusBadge = ({
     <div
       className={`
       absolute top-0 left-0 z-10 flex h-full bg-opacity-80 ${
-        status === MediaStatus.PROCESSING ? 'bg-indigo-500' : 'bg-green-500'
+        status === MediaStatus.PROCESSING ? 'bg-red-500' : 'bg-green-500'
       } transition-all duration-200 ease-in-out
     `}
       style={{

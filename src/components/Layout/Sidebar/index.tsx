@@ -183,7 +183,7 @@ const Sidebar = ({ open, setClosed }: SidebarProps) => {
                                   router.pathname.match(
                                     sidebarLink.activeRegExp
                                   )
-                                    ? 'bg-gradient-to-br from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500'
+                                    ? 'bg-gradient-to-br from-red-600 to-purple-600 hover:from-red-500 hover:to-purple-500'
                                     : 'hover:bg-gray-700 focus:bg-gray-700'
                                 }
                               `}
@@ -249,7 +249,7 @@ const Sidebar = ({ open, setClosed }: SidebarProps) => {
                                   router.pathname.match(
                                     sidebarLink.activeRegExp
                                   )
-                                    ? 'bg-gradient-to-br from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500'
+                                    ? 'bg-gradient-to-br from-red-600 to-purple-600 hover:from-red-500 hover:to-purple-500'
                                     : 'hover:bg-gray-700 focus:bg-gray-700'
                                 }
                               `}

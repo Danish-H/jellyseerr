@@ -22,8 +22,7 @@ const Alert = ({ title, children, type }: AlertProps) => {
   switch (type) {
     case 'info':
       design = {
-        bgColor:
-          'border border-indigo-500 backdrop-blur bg-indigo-400 bg-opacity-20',
+        bgColor: 'border border-red-500 backdrop-blur bg-red-400 bg-opacity-20',
         titleColor: 'text-gray-100',
         textColor: 'text-gray-300',
         svg: <InformationCircleIcon className="h-5 w-5" />,
