@@ -58,7 +58,7 @@ const ProfileHeader = ({ user, isSettingsPage }: ProfileHeaderProps) => {
                 user.id === loggedInUser?.id ? '/profile' : `/users/${user.id}`
               }
             >
-              <a className="text-overseerr text-lg font-bold hover:to-purple-200 sm:text-2xl">
+              <a className="text-overseerr text-lg font-bold hover:to-red-200 sm:text-2xl">
                 {user.displayName}
               </a>
             </Link>

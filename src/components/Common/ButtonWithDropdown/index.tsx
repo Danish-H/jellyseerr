@@ -19,7 +19,7 @@ const DropdownItem = ({
   switch (buttonType) {
     case 'ghost':
       styleClass +=
-        ' bg-transparent rounded hover:bg-gradient-to-br from-red-600 to-purple-600 text-white focus:border-gray-500 focus:text-white';
+        ' bg-transparent rounded hover:bg-gradient-to-br from-red-600 to-red-600 text-white focus:border-gray-500 focus:text-white';
       break;
     default:
       styleClass +=

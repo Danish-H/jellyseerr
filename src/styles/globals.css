@@ -511,7 +511,7 @@
   }
 
   .text-overseerr {
-    @apply bg-gradient-to-br from-red-400 to-purple-400 bg-clip-text text-transparent;
+    @apply bg-gradient-to-br from-red-400 to-red-400 bg-clip-text text-transparent;
   }
 
   @media all and (display-mode: browser) {
